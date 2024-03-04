@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <title>Form</title>
+    <link rel="stylesheet" href="signup.css">
+  </head>
+  <body>
+
+
+
+    <section class="form-container-section">
+      <div class="form-text">
+        <h1 class="form-text-h">Sign Up</h1>
+        <p class="form-text-p">Already have an account? <a href="login.html">Log in</a></p>
+      </div>
+
+      <form action="" id="resgitration" method="POST">
+        <div class="username-div">
+          <h5 class="txt">Username</h5>
+          <input
+            type="text"
+            name="username"
+            placeholder="eneter your username"
+            id="usernamefield"
+            class="usernamefield"
+          />
+          <p class="error-text" id="error-username"></p>
+        </div>
+        
+        <div class="email-div">
+          <h5 class="txt">Email</h5>
+          <input type="email" id="emailfield" class="emailfield" placeholder="enter email" />
+          <p id="emailError"></p>
+        </div>
+
+        <div class="passw-div">
+          <h5 class="txt">Password</h5>
+          <div class="passw-input-container">
+            <input
+            type="password"
+            name="passw"
+            placeholder="eneter your password"
+            id="passwordfield"
+            class="passwordfield"
+            />
+            <i class="fa-regular fa-eye" id="showIcon"></i>
+          </div>
+          <p class="error-text" id="error-passw"></p>
+        </div>
+
+        <div class="passw2-div">
+          <h5 class="txt">Repeat password</h5>
+          <input
+            type="password"
+            name="passw2"
+            placeholder="repeat your password"
+            id="passwordfield2"
+            class="passwordfield2"
+          />
+          <p class="error-text" id="error-passw2"></p>
+        </div>
+        
+        <div class="radio-div">
+          <input type="radio" name="gender" class="radio-class" />
+          <label for="">Male</label>
+          <input type="radio" name="gender" class="radio-class"/>
+          <label for="">Female</label>
+          <p class="error-text" id="error-gender"></p>
+        </div>
+
+        <div class="checkbox-div">
+          <input type="checkbox" id="agree" name="check" />
+          <label for="agree">i agree terms and conditions</label>
+          <p class="error-text" id="error-check"></p>
+          <button class="submit" type="submit">Sign up</button>
+        </div>
+      </form>
+    </section>
+
+
+
+
+    <script src="form.js"></script>
+  </body>
+</html>

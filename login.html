@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <title>Form</title>
+    <link rel="stylesheet" href="login.css">
+  </head>
+  <body>
+
+
+
+    <section class="form-container-section">
+      <div class="form-text">
+        <h1 class="form-text-h">Log In</h1>
+        <p class="form-text-p">Don't have an account? <a href="signup.html">Sign up</a></p>
+      </div>
+
+      <form action="" id="resgitration" method="POST">
+        <div class="username-div">
+          <h5>Username</h5>
+          <input
+            type="text"
+            name="username"
+            placeholder="eneter your username"
+            id="usernamefield"
+            class="usernamefield"
+          />
+          <p class="error-text" id="error-username"></p>
+        </div>
+        
+        <div class="passw-div">
+          <h5>Password</h5>
+          <div class="passw-input-container">
+            <input
+              type="password"
+              name="passw"
+              placeholder="eneter your password"
+              id="passwordfield"
+              class="passwordfield"
+            />
+            <i class="fa-regular fa-eye" id="showIcon"></i>
+          </div>
+          <p class="error-text" id="error-passw"></p>
+        </div>
+
+        <button class="submit" type="submit">Log in</button>
+      </form>
+    </section>
+
+
+
+    
+    <script src="loginform.js"></script>
+  </body>
+</html>
