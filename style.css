@@ -174,7 +174,6 @@ header {
     font-size: 14px;
     line-height: 20px;
     border-radius: 5px;
-    /* margin: 25px 40px 0 0; */
 }
 
 .nav-item:hover{
@@ -182,10 +181,6 @@ header {
     background-color: #FFFFFF;
     transition: 1s;
 }
-
-/* #182743  lurji*/
-/* #f7f8f9  tetri */
-/* #b6b3ab nacrisperi */
 
 
 
